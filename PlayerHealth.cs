@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour{
     
     void Update() {
-        if (gameObject.transform.position.y<=-3.7)
+        if (gameObject.transform.position.y<=-2.0)
         {
             Destroy(gameObject);
             Application.LoadLevel("Die");
